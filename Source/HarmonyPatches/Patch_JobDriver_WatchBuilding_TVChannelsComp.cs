@@ -38,7 +38,7 @@ namespace ChangeTheChannel.HarmonyPatches
             {
                 comp.pawnsWatching.Add(p);
             }
-            p.skills.Learn(comp.currentChannel.skill, CTCHelper.expPerTick * delta);
+            p.skills.Learn(comp.currentChannel.skill, comp.currentChannel.skillGainPerTick * delta);
             joyAmount *= p.skills.GetSkill(comp.currentChannel.skill).LearnRateFactor();
             return joyAmount;
 

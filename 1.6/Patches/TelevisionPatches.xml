@@ -9,6 +9,7 @@
             <title>Test</title>
             <!--Can be empty for joy-->
             <skill>Shooting</skill>
+            <skillGainPerTick>5</skillGainPerTick>
             <events>
               <li>
                 <text>Guh</text>

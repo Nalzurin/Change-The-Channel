@@ -39,6 +39,7 @@ namespace ChangeTheChannel
     {
         public string title;
         public SkillDef skill = null;
+        public float skillGainPerTick = 0.004f;
         public List<TVChannelEvent> events = [];
         private List<TVChannelEvent> playedEvents = [];
         public TVChannel() { }
@@ -60,7 +61,7 @@ namespace ChangeTheChannel
             Scribe_Defs.Look(ref skill, "skill");
             Scribe_Collections.Look(ref events, "events", LookMode.Deep);
             Scribe_Collections.Look(ref playedEvents, "playedEvents", LookMode.Deep);
-
+            Scribe_Values.Look(ref skillGainPerTick, "skillGainPerTick", 0.004f);
         }
     }
 }
