@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <ModMetaData>
-  <name>Template Mod</name>
+  <name>Change The Channel!</name>
   <author>Nalzurin</author>
-  <packageId>nalzurin.template</packageId>
+  <packageId>nalzurin.changethechannel</packageId>
   <modVersion>0.0</modVersion>
   <supportedVersions>
-    <li>1.5</li>
+    <li>1.6</li>
   </supportedVersions>
   <description>Template desc.</description>
   <modDependencies>

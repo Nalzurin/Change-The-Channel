@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template", "Template.csproj", "{18B1FD69-0EAE-4B2C-A12B-5A6BA4E5392E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeTheChannel", "ChangeTheChannel.csproj", "{18B1FD69-0EAE-4B2C-A12B-5A6BA4E5392E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

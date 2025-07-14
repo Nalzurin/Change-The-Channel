@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="TubeTelevision" or defName="FlatscreenTelevision"or defName="MegascreenTelevision"]/comps</xpath>
+    <value>
+      <li Class="ChangeTheChannel.CompProperties_TVChannels">
+        <channels>
+          <li>
+            <title>Test</title>
+            <!--Can be empty for joy-->
+            <skill>Shooting</skill>
+            <events>
+              <li>
+                <text>Guh</text>
+                <eventTraitThoughts>
+                  <li>
+                    <traitDef>Gourmand</traitDef>
+                    <!--Can be empty-->
+                    <degree>0</degree>
+                    <thoughtDef>AteWithoutTable</thoughtDef>
+                  </li>
+                </eventTraitThoughts>
+              </li>
+            </events>
+          </li>
+          <li>
+            <title>Test2</title>
+          </li>
+        </channels>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="TubeTelevision" or defName="FlatscreenTelevision"or defName="MegascreenTelevision"]</xpath>
+    <value>
+      <tickerType>Normal</tickerType>
+    </value>
+  </Operation>
+</Patch>

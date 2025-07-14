@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+  <CurrentChannel>Channel: {0} ({1}).</CurrentChannel>
+  <CannotChangeChannel>Cannot change channel</CannotChangeChannel>
+  <ChangeChannel>Change to {0} ({1}).</ChangeChannel>
+  <ChannelEvent>Curious Programme</ChannelEvent>
+  <AffectedPawns>Affected pawns:</AffectedPawns>
+  <TVEventNoOneAffected>Nobody was particularly impressed.</TVEventNoOneAffected>
+  <Recreation>Recreation</Recreation>
+</LanguageData>
