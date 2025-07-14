@@ -18,7 +18,7 @@ namespace ChangeTheChannel
         protected override IEnumerable<Toil> MakeNewToils()
         {
             CompTVChannels comp = TargetA.Thing.TryGetComp<CompTVChannels>();
-            Log.Message("test");
+            //Log.Message("test");
             this.FailOnDespawnedOrNull(TargetIndex.A);
             this.FailOnForbidden(TargetIndex.A);
             this.FailOn(() =>

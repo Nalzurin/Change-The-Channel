@@ -36,7 +36,7 @@ namespace ChangeTheChannel
             base.CompTick();
             if (parent.IsHashIntervalTick(40))
             {
-                List<Pawn> list = pawnsWatchingForReading;
+                List<Pawn> list = [.. pawnsWatchingForReading];
                 foreach (Pawn p in list)
                 {
                     if (p.jobs.curJob.def != DefOfs.WatchTelevision)
@@ -91,7 +91,7 @@ namespace ChangeTheChannel
             {
                 yield return FloatMenuUtility.DecoratePrioritizedTask(new FloatMenuOption("ChangeChannel".Translate(channel.title, channel.skill?.LabelCap ?? "Recreation".Translate()), delegate
                 {
-                    Log.Message(parent.Label);
+                    //Log.Message(parent.Label);
                     wantedChannel = channel;
                     Job job = JobMaker.MakeJob(DefOfs.ChangeChannel, parent);
                     selPawn.jobs.TryTakeOrderedJob(job, JobTag.Misc);
